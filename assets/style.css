@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Lobster');
+
+/*-------------------------------content*/
+.bg-color-home-content{
+    background-color: #a52a2a;
+}
+/*----------------------------------------header*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: RGBA(0,0,0,0.08);
+}
+
+li {
+  float: right;
+}
+
+li a {
+    font-family: "Bitter", sans-serif;
+  display: block;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:#c0c0c0;
+}
+
+.logo{
+    font-family: "Lobster", sans-serif;
+    left:0;
+    margin:0;
+    padding-left:0;
+    float:left;
+    font-size: 70px;
+}
+
+.home-image{
+    background-image:url('/assets/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:384px;
+    transition: all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -webkit-transition:all .5s ease-in-out;
+}
