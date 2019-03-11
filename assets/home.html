@@ -5,26 +5,176 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"/>
     <title>PowerFit</title>
 </head>
 <body>
-    <header class="container-fluid">
-        <div class="row">
-            <ul>
-                <li class="logo"><a href="home.html">PowerFit</a></li>
-                <li><a href="training.html">Training</a></li>
-                <li><a href="recipes.html">Recipes</a></li>
-                <li><a href="catalog.html">Products</a></li>
-                <li><a href="home.html">Home</a></li>
+    <nav class="nav navbar-inverse">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed"  data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                <span class="sr-only">display menu</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="home.html" class="navbar-brand">PowerFit</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-right" id="navbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#catalog">Products</a></li>
+                <li><a href="#training">Workout</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
-    </header>
+    </nav>
+    
+    <div id="home" class=" container-fluid bg-home-image">
+        <a id="home" class="smooth">
+            <h1 class="heading-home">All you need in the same place.</h1>
+        </a>
+            <p class="text">Fitness products, Healthy recipes, workout videos and training music!</p>
+        <div class="row social-links-position">
+            <ul class=" list-inline social-links">
+                <li><a target="_blank" href="https://www.facebook.com/andrea.maggino.98"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/dreea_ml/?hl=es"><i class="fab fa-instagram"></i></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/andrea-maggino"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+    </div>
+        
     <section>
-        <div class="row">
-            <div class="col-md-12 home-image"></div>
-            <div class="col-md-12 bg-color-home-content"></div>
+        <div id="catalog" class="container-fluid">
+            <a id="catalog"></a>
+            <h1 class="heading heading-catalog">Fitness Products</h1>
+            <div class="row">
+                <div class="col-sm-4 boxed ">
+                    <h2>Shaker Bottle</h2>
+                    <img src="/assets/desk.png"></img>
+                    <div id="navbar">
+                        <div id="holder">
+                            <ul> 
+                               <li>Overview</li>
+                            </ul> 
+                        </div> 
+                    </div> 
+                    <div id="Overview" class="tabcontent">
+                        <p>
+                            <ul>
+                                <li>Dimensions: 3.809” x 8.623”.</li>
+                                <li>Capacity: 22oz.</li>
+                                <li>Precautions:</li>
+                                <p>Not intended for use with hot liquids or carbonated liquids.<br>
+                                Do not microwave.<br>
+                            </ul>
+                        </p>
+                        <button class="btn1" type="submit">Buy
+                        <a target="_blank" href="https://www.blenderbottle.com/products/prostak"><i class="fas fa-shopping-cart"></i></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-sm-4 boxed ">
+                    <h2>Protein Powder</h2>
+                    <img src="/assets/desk2.png"></img>
+                    <div id="navbar">
+                        <div id="holder">
+                            <ul> 
+                               <li>Overview</li>
+                            </ul> 
+                        </div> 
+                    </div> 
+                    <div id="Overview" class="tabcontent">
+                        <p style="padding:1%;">
+                            Protein is an energizing nutrient that is vital to the body's functions.
+                            Having a high protein intake has several advantages when it comes to both muscle growth and weight loss,
+                            but getting in itself optimal amounts of protein only through food in the daily diet can be both costly and impractical.
+                        </p>
+                        <button class="btn1" type="submit">Buy
+                        <a target="_blank" href="https://www.gymgrossisten.com/kosttillskott/proteinpulver"><i class="fas fa-shopping-cart"></i></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-sm-4 boxed ">
+                    <h2>Protein Bars</h2>
+                    <img src="/assets/desk3.png"></img>
+                    <div id="navbar">
+                        <div id="holder">
+                            <ul> 
+                               <li>Overview</li>
+                            </ul> 
+                        </div> 
+                    </div> 
+                    <div id="Overview" class="tabcontent">
+                        <p>
+                            <ul>
+                                <li>Amazing flavors!.</li>
+                                <li>Wonderful soft texture.</li>
+                                <li>20 g protein.</li>
+                                <li>Below 200 kcal.</li>
+                                <li>Less than 2 g of sugar.</li>
+                            </ul>
+                        </p>
+                        <button class="btn1" type="submit">Buy
+                            <a target="_blank" href="https://www.gymgrossisten.com/protein-bar-55-g"><i class="fas fa-shopping-cart"></i></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="training" class="container-fluid bg-videos-image">
+            <a id="training" class="smooth">
+                <h1 class="heading heading-Training">Training videos<i class="fab fa-youtube"></i></h1>
+                <iframe src="https://www.youtube.com/embed/C31mN7CixTg" class="youtube-video"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </a>
+        </div>
+        
+        <div id="music" class="container-fluid">
+          <a id="music" class="smooth"></a>
+          <h1 class="heading">Training Music<i class="fas fa-music"></i></h1>
+          <div class="row">
+              <div class="col-sm-4">
+                  <iframe src="https://open.spotify.com/embed?uri=spotify%3Aplaylist%3A6cBb2brojAoRxalx00p32y" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              </div>
+              <div class="col-sm-4">
+                <iframe src="https://open.spotify.com/embed?uri=spotify%3Aplaylist%3A4aKU1dtw2Cba7mHiiNeAy7" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              </div>
+              <div class="col-sm-4">
+                 <iframe src="https://open.spotify.com/embed?uri=spotify%3Aplaylist%3A1p3Utscfgwk8m5A09T6jNZ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              </div>
+          </div>
+        </div>
+        
+        <div id="contact" class="container-fluid bg-contact-image">
+            <a id="contact" class="smooth"></a>
+            <h1 class="heading">Let's get in touch!</h1>
+            <h2 style="color:white;">Leave your comment</h2>
+            <form>
+                <div class="form-group">
+                    <input type="Text" class="form-control" id="InputTitle" aria-describedby="emailHelp" placeholder="Title">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="InputComment" rows="5" placeholder="Comment">
+                </div>
+                <button type="button" class="btn2">Submit<i class="fas fa-share-square"></i></button>
+            </form>
         </div>
     </section>
-    <footer></footer>
+    
+    <footer class="container-fluid">
+        <div id="footer-details">
+            <div class="col-xs-12">
+                <div>
+                    <a href="#home">
+                        <button type="button" class="btn3">Back to the top <i class="fas fa-arrow-up"></i></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
