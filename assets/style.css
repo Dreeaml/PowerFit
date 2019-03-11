@@ -69,8 +69,8 @@ h2, h3{
     font-style:italic;
     }
     
-.navbar-nav{
-    z-index: 1;
+.navbar-nav li:hover{
+    background-color: #3c3b3b;
 }
 /*---------------------------------------------Page 1*/
 
@@ -92,7 +92,7 @@ h2, h3{
 }
 
 .social-links-position{
-    padding-top:20%; 
+    padding-top:15%; 
 }
 
 .social-links{
@@ -345,4 +345,13 @@ footer{
   }
 }
 
-
+@media (min-width:1000px) and (max-width:1300px){
+  .social-links-position{
+    padding-top:15%;
+  }
+}
+@media (min-width:1300px){
+  .social-links-position{
+    padding-top:5%;
+  }
+}
