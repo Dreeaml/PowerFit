@@ -78,7 +78,7 @@ h2, h3{
     margin: 0;
     padding: 0;
     height: 560px;
-    background-image:url('/assets/1.jpg');
+    background-image:url('/images/1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -221,7 +221,7 @@ h2, h3{
     margin: 0;
     padding: 0;
     height: 560px;
-    background-image:url('/assets/bgTraining.jpg');
+    background-image:url('/images/bgTraining.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -253,7 +253,7 @@ fa-music{
     margin: 0;
     padding: 0;
     height: 360px;
-    background-image:url('/assets/bg-contact-image.jpg');
+    background-image:url('/images/bg-contact-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
