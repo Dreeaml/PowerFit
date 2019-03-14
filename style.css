@@ -131,11 +131,8 @@ h2, h3{
 .boxed{
     background-color: #ffffffd9;
     border:1px solid grey;
-    padding-top: 40px;
-    padding-bottom: 10px;
-    height:700px;
+    height:670px;
 }
-
 
 .boxed img{
     width:80%;
@@ -180,19 +177,23 @@ h2, h3{
   padding: 5px;
   color: black;
 }
- 
+
+.btn1-contenedor{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    left:20px;
+}
+
 .btn1{
-    text-align: center;
     background-color: #441616;
     color:white;
     transition-duration: 0.4s;
-    width: 60%;
     border-radius: 5px;
     border: none;
-    margin-left: 20%;
     display: block;
     height: 40px;
-    margin-top: 50px;
+    position: relative;
 }
 
 .fa-shopping-cart {
@@ -309,14 +310,11 @@ footer{
     margin-bottom: 10px;
     margin-top: 10px;
     transition-duration: 0.4s;
-    margin-left: 35%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding: 2%;
     background-color: #51989c;
     border:none;
     border-radius: 5px;
     font-size: 15px;
-    width: 30%;
 }
 
 .fa-arrow-up{
@@ -331,17 +329,16 @@ footer{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-/*--------------------------------------------media queries*/
-@media (max-width:360px){
-  .btn2, .btn3{
-    width: 40%;
-    margin-left: 30%;
-  }
-}
+/*-------------------------------------------------media queries*/
 
-@media (min-width:300px) and (max-width:767px){
+@media (min-width:300px) and (max-width:666px){
   .social-links-position{
     padding-top:40%;
+  }
+}
+@media (min-width:667px) and (max-width:736px){
+    .social-links-position{
+    padding-top:30%;
   }
 }
 
@@ -354,4 +351,113 @@ footer{
   .social-links-position{
     padding-top:5%;
   }
+}
+/*---------------------------------------submit button*/
+
+@media (max-width:360px){
+  .btn2{
+    width: 40%;
+    margin-left: 30%;
+  }
+}
+/*------------------------------------catalog section*/
+
+@media (min-width:374px) and (max-width:410px){
+     .boxed{
+        height:680px;
+     }
+     .tabcontent{
+        height:53%;
+    }
+}
+
+@media (min-width:412px) {
+     .boxed{
+        height:680px;
+     }
+     .tabcontent{
+        height:50%;
+    }
+}
+@media (min-width:450px)and (max-width:550px){
+    .boxed{
+        height:800px;
+    }
+    .tabcontent{
+        height: 50%;
+    }
+}
+@media (min-width:510px)and (max-width:669px){
+    .boxed{
+        height:800px;
+    }
+    .tabcontent{
+        height: 42%;
+    }
+}
+
+@media (min-width:670px) {
+    .boxed{
+        height:800px;
+    }
+    .tabcontent{
+        height: 40%;
+    }
+}
+@media (min-width:734px){
+    .boxed{
+        height:800px;
+    }
+    .tabcontent{
+        height: 37%;
+    }
+}
+
+@media (min-width:768px){
+    .boxed{
+        height:670px;
+    }
+    .tabcontent{
+        height: 60%;
+    }
+}
+@media (min-width:800px) and (max-width:960px){
+    .boxed{
+        height:800px;
+    }
+    .tabcontent{
+        height: 64%;
+    }
+}
+
+@media (min-width:1000px){
+    .tabcontent{
+        height: 53%;
+    }
+}
+
+@media (min-width:1050px){
+    .tabcontent{
+        height: 45%;
+    }
+}
+/*--------------------------------back to the top button*/
+
+@media (min-width:370px) and (max-width:665px){
+  .btn3{
+    width:60%;
+    margin-left: 25%;
+  }
+}
+
+@media (min-width:666px) and (max-width:1020px){
+  .btn3{
+    width:40%;
+    margin-left: 30%;
+  }
+}
+@media (min-width:1050px){
+    .btn3{
+     margin-left: 45%; 
+     }
 }
