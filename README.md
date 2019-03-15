@@ -1,73 +1,68 @@
 POWERFIT
 -----------------------------------------
-This project is about healthy and fitness life, Is aimed for people interested in this lifestyle. Provide a simple way to find popular and usefull 
-information about fitness products, healthy recipes, training music and workout videos.
+Milestone Project 1: User-Centric Frontend Development - Code Institute
 
-Sales pitch: "Fitness in one place"
+This project is aimed for people interested in health and fitness lifestyle. Provide a simple way to find popular and usefull information about 
+fitness products, training music and workout videos.
 
-Usually, the users involved in fitness search for this information in different websides. This situation can make the users feel overwheelmed or frustated,
-for that reason is why "PowerFit" will get popular quikly.
+Sales pitch: "All you need in one place".
 
 -----------------------------------------
-
-
 UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
+-----------------------------------------
+My goal to this project was to create a handy website for the users so they can find what they need in the same place.
+Images, videos, links to spotify music, a contact form for opinions and my social links
+are provided to produce a good user experience. Also, the media queries for all the devices (vertical and horizontal screen) were includedto ensure compatibility and responsiveness.
+ 
+Color palette: Grey, dark red, turquoise.
+-----------------------------------------
+Technologies
+-----------------------------------------
+1.HTML5
+2.CSS3
+3.Bootstrap 3.3.7
+-----------------------------------------
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+-----------------------------------------
+The site use a scrolling page so users can have an ease access and navegation. 
+The navbar collapse in small devices so the design keep simple and organized.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+Features left to Implement
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-JQuery
-The project uses JQuery to simplify DOM manipulation.
+In the future I would like add horizontal galleries to offer more products, videos and music albums. 
+-----------------------------------------
 Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+-----------------------------------------
+The users can read an overview of the offered products and acces to the official seller page by clicking on the buy button. 
+They are able to watch and listen the trainning videos and the spotify albums inside the website.
+They are also able to view my social media profiles via clicking on the icons in the home page. 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+All links will open in a new tab using 'target="_blank"'.
+All links have been manually tested to ensure that they are pointing to the correct destination.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+The navbar is fixed so the user can navigate ease through the sections.
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+This site was tested in Chrome, FireFox, Microsoft Edege and on multiple mobile devices in <a href:"http://www.responsinator.com/?url=https%3A%2F%2Fdreeaml.github.io">Responsinator</a>.
+-----------------------------------------
 Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+-----------------------------------------
+This site is hosted using GitHub pages, deployed directly from the master branch. 
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/Code-Institute-Solutions/readme-template.git into your terminal. 
+-----------------------------------------
 
 Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
+-----------------------------------------
+Content-Media
+
+The text and photos of each fitness products was copied from the offical sites 
+-https://www.gymgrossisten.com/
+-https://www.blenderbottle.com/
+
 Acknowledgements
-I received inspiration for this project from X
+The scroll page idea was found through this blog <a href:"https://codeplanet.io/how-to-make-a-single-page-website/">Codeplanet</a>
+I received inspiration for this project from <a href:"https://codeplanet.io/how-to-make-a-single-page-website/">Codeplanet</a>
+
+This is for educational use.
+
+
+

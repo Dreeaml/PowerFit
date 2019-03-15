@@ -129,8 +129,8 @@ h2, h3{
 }
 
 .boxed{
-    background-color: #ffffffd9;
-    border:1px solid grey;
+    background-color: #e6e3e3;
+    border-right:1px solid grey;
     height:670px;
 }
 
@@ -437,8 +437,11 @@ footer{
 }
 
 @media (min-width:1050px){
+    .boxed{
+        height:770px;
+    }
     .tabcontent{
-        height: 45%;
+        height: 50%;
     }
 }
 /*--------------------------------back to the top button*/
